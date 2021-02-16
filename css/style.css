@@ -30,6 +30,13 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  font-family: "Andika", sans-serif;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-color: #DDDDDD;
 
   /*Req 1*/
 }
@@ -37,20 +44,31 @@ body{
 h1{
   color: #c12258;
   font-size: 2em;
-
+  line-height: 2;
+  text-align: center;
   /*Req 2*/
 }
 
 p{
+  padding-top: 15px;
   /*Req 3*/
 }
 
 a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
   /*Req 4*/
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
+*:focus{
+  border-width: 3px;
+  border-style: dashed;
+  color: #417243
+
+}
 
 
 /*Req 6a*/
